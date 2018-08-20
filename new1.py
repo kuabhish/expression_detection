@@ -19,4 +19,4 @@ import my_model
 model = my_model.My_Model(weights_path=None)
 
 import train
-# train.train(model , x_train, y_train , x_test , y_test, x_cv , y_cv)
+train.train(model , x_train, y_train , x_test , y_test, x_cv , y_cv)
